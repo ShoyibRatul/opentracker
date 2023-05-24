@@ -9,23 +9,24 @@ Steps to go:
 ```
 sudo apt-get update 
 sudo apt-get install clang make cvs
-
 ```
 
 ```
 sudo apt-get install zlib1g-dev
-
 ```
 
 
-``` cvs -d :pserver:cvs@cvs.fefe.de:/cvs -z9 co libowfat
+```
+cvs -d :pserver:cvs@cvs.fefe.de:/cvs -z9 co libowfat
 cd libowfat
 make
-cd .. ```
+cd .. 
+```
 ``` cvs -d:pserver:anoncvs@cvs.erdgeist.org:/home/cvsroot co opentracker
 cd opentracker
 make
-./opentracker ```
+./opentracker 
+```
 
 This tracker is open in a sense that everyone announcing a torrent is welcome to do so and will be informed about anyone else announcing the same torrent. Unless
 -DWANT_IP_FROM_QUERY_STRING is enabled (which is meant for debugging purposes only), only source IPs are accepted. The tracker implements a minimal set of
